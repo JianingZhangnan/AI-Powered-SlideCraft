@@ -1,0 +1,16 @@
+name: aippt-backend
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.12.8
+  - pip
+  - openai=1.78.0      
+  - langchain=0.3.25
+  - langchain-openai
+  - langchain-community
+  - langchain-core
+  - google-genai
+  - fastapi=0.115.12 
+  - pip:
+    - langchain-google-genai
