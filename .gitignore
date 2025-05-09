@@ -162,6 +162,7 @@ public/ # (如果你的构建工具将所有最终产物放入 public，且 publ
 .env*
 !/.env.example # 通常保留 .env.example 文件作为模板
 
-# Specific to your project if you have other build outputs or temp files
-# e.g., my-custom-build-output/
-# e.g., temp_data/
+# Cursor
+.cursor/
+
+
